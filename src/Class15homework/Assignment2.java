@@ -7,9 +7,12 @@ public class Assignment2 {
 		//{"This", "is", "array", "of", "strings"} prints all values in one line.
 
 		
-		int arr []= {This, is, array, of, strings};
+		String [] arr = {"This ", "is ", "array ", "of ", "strings."};
 		
+		for( int i=0; i< arr.length; i++) {
+		System.out.print(arr [ i ]);
 		
+		}
 		
 	}
 
